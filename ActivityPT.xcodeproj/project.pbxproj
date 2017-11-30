@@ -12,6 +12,10 @@
 		922F1BC81FD0695000E2BCC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922F1BC61FD0695000E2BCC4 /* Main.storyboard */; };
 		922F1BCA1FD0695000E2BCC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 922F1BC91FD0695000E2BCC4 /* Assets.xcassets */; };
 		922F1BCD1FD0695000E2BCC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 922F1BCB1FD0695000E2BCC4 /* LaunchScreen.storyboard */; };
+		922F1BD61FD06AEB00E2BCC4 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F1BD51FD06AEB00E2BCC4 /* RingView.swift */; };
+		922F1BD81FD0803600E2BCC4 /* WorkoutSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F1BD71FD0803600E2BCC4 /* WorkoutSummaryView.swift */; };
+		922F1BDA1FD0905000E2BCC4 /* MetricRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F1BD91FD0905000E2BCC4 /* MetricRingView.swift */; };
+		922F1BDC1FD0909300E2BCC4 /* ActivityRingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922F1BDB1FD0909300E2BCC4 /* ActivityRingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		922F1BC91FD0695000E2BCC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		922F1BCC1FD0695000E2BCC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		922F1BCE1FD0695000E2BCC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		922F1BD51FD06AEB00E2BCC4 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		922F1BD71FD0803600E2BCC4 /* WorkoutSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSummaryView.swift; sourceTree = "<group>"; };
+		922F1BD91FD0905000E2BCC4 /* MetricRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricRingView.swift; sourceTree = "<group>"; };
+		922F1BDB1FD0909300E2BCC4 /* ActivityRingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				922F1BC91FD0695000E2BCC4 /* Assets.xcassets */,
 				922F1BCB1FD0695000E2BCC4 /* LaunchScreen.storyboard */,
 				922F1BCE1FD0695000E2BCC4 /* Info.plist */,
+				922F1BD51FD06AEB00E2BCC4 /* RingView.swift */,
+				922F1BD71FD0803600E2BCC4 /* WorkoutSummaryView.swift */,
+				922F1BD91FD0905000E2BCC4 /* MetricRingView.swift */,
+				922F1BDB1FD0909300E2BCC4 /* ActivityRingView.swift */,
 			);
 			path = ActivityPT;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				922F1BD61FD06AEB00E2BCC4 /* RingView.swift in Sources */,
 				922F1BC51FD0695000E2BCC4 /* ViewController.swift in Sources */,
+				922F1BDA1FD0905000E2BCC4 /* MetricRingView.swift in Sources */,
 				922F1BC31FD0695000E2BCC4 /* AppDelegate.swift in Sources */,
+				922F1BD81FD0803600E2BCC4 /* WorkoutSummaryView.swift in Sources */,
+				922F1BDC1FD0909300E2BCC4 /* ActivityRingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

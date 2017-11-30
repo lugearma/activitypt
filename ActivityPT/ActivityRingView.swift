@@ -6,4 +6,17 @@
 //  Copyright © 2017 Terco. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class ActivityRingView: MetricRingView {
+  
+  override func awakeFromNib() {
+    super.awakeFromNib()
+    setupView()
+  }
+  
+  override func setupView() {
+    ringBackgroundColor = .red
+    ringColor = .brown
+  }
+}
